@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif, serif;
+}
+
+body{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.container {
+    
+    max-width:500px;
+    width:100%;
+    margin: 168px auto;
+    padding: 30px;
+}
+
+.header {
+    width: 100%;
+    text-align:center;
+}
+
+.header h2 {
+    
+    font-weight: 500;
+    font-size: 38px;
+}
+
+.form {
+    padding: 30px 40px;
+    
+}
+
+.form-control {
+    margin-bottom:10px;
+    padding-bottom: 20px;
+    position:relative;
+    color: #ACB5BD;
+}
+
+.form-control label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.form-control input {
+    border: solid 1px #ACB5BD;
+    border-radius: 8px;
+    text-indent: 24px;
+    height: 100%;
+    width: 100%;
+    font-size: 21px;
+    display:block;
+    padding: 17px;
+    padding-bottom: 14px;
+    padding-left: 24px;
+}
+
+::placeholder{
+    color: #DDE2E5
+}
+
+.form-control i {
+    position:absolute;
+    top: 35px;
+    right: 22px;
+    font-size: 24px;
+    visibility: hidden;
+}
+
+.form-control.success i.lni-checkmark {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.form-control.error i.lni-close {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+.form button{
+    background: #5F2EEA;
+    border:1px white ;
+    border-radius: 15px;
+    width: 100%;
+    color:white;
+    font-size: 16px;
+    padding:15px;
+    text-align: center;
+}
+
+.age-agree {
+    margin-top:40px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ACB5BD;
+    text-align: center;
+}
